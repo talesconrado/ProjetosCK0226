@@ -1,0 +1,28 @@
+Navegador de Rotas Turísticas de Ônibus
+
+Imagine que na rodoviária de Fortaleza possui um totem onde há um sistema de informação de linhas de ônibus: você vai lá e digita o destino para onde quer ir e o horário aproximado de chegada e o sistema escolhe a linha de ônibus que chega lá no horário mais próximo de seu desejo.
+
+É este o trabalho que você implementará. Para isso você vai utilizar uma lista encadeada simples que terá como informações as linhas de ônibus, cada qual representada por uma lista duplamente encadeada, como abaixo:
+
+Este programa deverá gerenciar um conjunto de listas de rotas/linhas de uma companhia de ônibus intermunicipal do Estado do Ceará (ex., Guanagara, Fretcar, etc).
+
+Para tanto:
+- Implemente o programa de rotas como uma lista de listas.
+- A lista que contém todas as rotas pode ser uma lista encadeada ou uma lista em vetor.
+- Cada lista que representa uma rota deve ser uma lista duplamente encadeada.
+
+Requisitos:
+
+1) Todas as rotas se iniciam em Fortaleza;
+
+2) Cada rota possui um nome que a identifica de forma única, dado pelo destino (ex. "Aracatí" e "Quixadá") e o horário de chagada ao destino;
+
+3) Cada rota possui a lista de todas as cidades por onde o ônibus passa, para ir de Fortaleza ao destino;
+
+4) A rota de ônibus, ao retornar, passa pelos mesmos lugares. Portanto, pode ser representada por uma lista duplamente encadeada;
+
+5) O usuário deve poder escolher uma rota e poder navegar por ela, indo de cidade em cidade e voltando para a cidade anterior, usando para tanto as teclas de seta à esquerda e seta à direita;
+
+6) Cada nó representando uma cidade possui, além do nome, um texto descrevendo alguma característica turística desta cidade (ex. Aracatí é a "Terra dos Bons Ventos" e Quixadá é a "Terra dos Monólitos e Voo Livre"). Este texto é mostrado quando se visita um nó (cidade).
+
+6) Você deve cadastrar pelo menos 10 roteiros turísticos.
