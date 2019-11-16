@@ -19,4 +19,3 @@ Cidade *ant_cidade(Cidade *atual);
 //mostra o nome a característica da cidade
 void apresenta_cidade(Cidade *atual);
 
-//navega pelas cidades
