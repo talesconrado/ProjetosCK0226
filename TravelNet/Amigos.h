@@ -5,3 +5,4 @@ TAD do tipo Fila com
 2. Ponteiro para o último Usuário
 */
 typedef struct amigos Amigos;
+
